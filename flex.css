@@ -1,0 +1,96 @@
+
+* { box-sizing: border-box; }
+
+
+
+[class^="box"] {
+  color:blue;
+  
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+
+.box1 { background: red;}
+.box2 { background: red;}
+.box3 { background: red;}
+.box4 { background: red;}
+.box5 { background: red;}
+.box6 { background: red;}
+.box7 { background: red;}
+.box8 { background: red;}
+.box9 { background: red;}
+.box10 { background: red;}
+
+
+
+.flex-container {
+ display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+[class^="box"] {
+   text-align: center;
+    border: solid 4px white;
+}
+
+.box1 {
+    height: 100%;
+    font-size: 100px;
+    width: 100%;
+    text-align: center;
+}
+
+.box2 {
+    height: 50%;
+    font-size: 50px;
+  width: 50%;
+    text-align: center;
+}
+.box3 {
+    height: 50%;
+    font-size: 50px;
+  width: 50%;
+    text-align: center;
+}
+.box4 {
+    height: 50%;
+    font-size: 25px;
+ width: 25%;
+    text-align: center;
+}
+.box5 {
+    height: 50%;
+    font-size: 25px;
+ width: 25%;
+    text-align: center;
+}
+.box6 {
+    height: 50%;
+    font-size: 25px;
+ width: 25%;
+    text-align: center;
+}
+.box7 {
+    font-size: 25px;
+ width: 25%;
+    text-align: center;
+}
+.box8 {
+    font-size: 33px;
+ width: 33.3%;
+    text-align: center;
+}
+.box9 {
+    font-size: 33px;
+ width: 33.3%;
+    text-align: center;
+}
+.box10 {
+    font-size: 33px;
+ width: 33.3%;
+    text-align: center;
+}
