@@ -11,7 +11,6 @@
   padding:10px;
 }
 
-
 .box1 { background: red;}
 .box2 { background: red;}
 .box3 { background: red;}
@@ -94,3 +93,5 @@
  width: 33.3%;
     text-align: center;
 }
+
+@media screen and (max-width:480px) {}
